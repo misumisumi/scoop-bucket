@@ -1,14 +1,15 @@
 {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "license": "OFL-1.1",
-    "url": "https://github.com/yuru7/moralerspace/releases/download/v1.0.2/MoralerspaceNF_v1.0.2.zip",
+    "url": "https://github.com/yuru7/moralerspace/releases/download/v2.0.0/Moralerspace_v2.0.0.zip",
     "homepage": "https://github.com/yuru7/moralerspace",
-    "hash": "06dbd8f2bdd5259d07e43e9fd5601f6a62f80a69813cab1801c9e9dc499c71ce",
+    "hash": "56175ee16373ba1a3d2fd5ec46f3b0b6bf0412be7db1481ec7dee757f2e3d557",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/yuru7/moralerspace/releases/download/v$version/MoralerspaceNF_v$version.zip"
+        "url": "https://github.com/yuru7/moralerspace/releases/download/v$version/Moralerspace_v$version.zip",
+        "extract_dir": "Moralerspace_v$version"
     },
-    "extract_dir": "MoralerspaceNF_v1.0.2",
+    "extract_dir": "Moralerspace_v2.0.0",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
